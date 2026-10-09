@@ -1,0 +1,32 @@
+{
+  "name": "meetingmind",
+  "version": "0.1.0",
+  "description": "A skeleton Electron desktop app for AI-assisted meeting notes.",
+  "private": true,
+  "type": "module",
+  "main": "out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "electron": "latest",
+    "electron-vite": "^5.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "vite": "^7.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

@@ -1,0 +1,13 @@
+appId: com.meetingmind.desktop
+productName: MeetingMind
+directories:
+  output: release
+files:
+  - out/**
+  - package.json
+mac:
+  category: public.app-category.productivity
+win:
+  target: nsis
+linux:
+  target: AppImage
